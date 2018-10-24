@@ -5,5 +5,7 @@ spring:
         git:
           uri: https://github.com/silviuStefan/cloud-global
           search-paths: config-data
+  application:
+    name: config-service
 server:
   port: 8888
